@@ -1,68 +1,57 @@
+/* Fundo geral inspirado no azul digital das imagens */
 body {
-    background-color: #e8f1fb;
-    color: rgb(4, 99, 150);
+    background-color: #0d1b2a; /* azul escuro tecnológico */
+    color: #00cfff; /* azul neon claro para texto */
 }
 
+/* Navbar azul translúcida com links em azul claro */
 .navbar {
-    background-color: rgba(21, 37, 177, 0.6);
+    background-color: rgba(0, 123, 255, 0.6);
 }
 
 .logo-placeholder {
     width: 70px;
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #00aaff;
     border-radius: 50%;
 }
 
+/* Links da navbar */
 .navbar a {
     transition: 0.3s;
-    color: rgba(56, 102, 250, 0.9) !important;
+    color: #cceeff !important; /* azul claro gelado */
     font-weight: 700;
 }
 
 .navbar a:hover {
-    color: rgba(122, 159, 220, 0.964) !important;
+    color: #ffffff !important;
 }
 
+/* Espaço para não cobrir conteúdo com o topo fixo */
 main {
     padding-top: 100px;
 }
 
+/* Bloco jumbotron azul transparente com texto em azul claro */
 .jumbotron {
-    color: rgb(154, 201, 237);
-    background-color: rgba(48, 105, 227, 0.2) !important;
+    background-color: rgba(0, 136, 204, 0.3) !important;
+    color: #c6e6ff;
     border-radius: 20px;
 }
 
+/* Lista de recursos no jumbotron */
 .jumbotron ul {
-    color: rgb(0, 138, 194);
+    color: #00e0ff; /* azul neon ciano */
 }
 
+/* Título chamativo branco */
 .jumbotron h1 {
-    color: aliceblue;
+    color: #ffffff;
 }
 
+/* Cards brancos com bordas e sombras em azul */
 .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: rgba(255, 255, 255, 0.9) !important;
+    border: 2px solid #00bfff;
     margin-top: 30px;
-    border: 1px solid #cce6ff;
-}
-.card:hover {
-    transform: scale(1.03);
-    box-shadow: 10px 10px 10px rgba(0, 123, 255, 0.3);
-}
-
-.card-title {
-    font-weight: bold;
-}
-
-section {
-    background-color: #c7e3fa;
-    padding: 50px 0;
-    color: rgb(1, 95, 153);
-}
-
-footer {
-    background-color: rgba(2, 73, 179, 0.6);
-}
+    transition: tr
