@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(to right, #0e5ab9, #0bb2f7);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+h1, h3, .card-title {
+  color: #ffdd57;
+}
+
+hr {
+  opacity: 0.3;
+}
