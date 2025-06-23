@@ -1,9 +1,5 @@
 body {
-    background-image: url('https://sdmntprwestus3.oaiusercontent.com/files/00000000-81dc-61fd-b64b-d6ce22595e8e/raw?se=2025-06-23T18%3A42%3A09Z&sp=r&sv=2024-08-04&sr=b&scid=755d2368-22cd-5fed-b085-d05cd8dddc33&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-23T12%3A55%3A07Z&ske=2025-06-24T12%3A55%3A07Z&sks=b&skv=2024-08-04&sig=oLdGne1VPBwmn56FaDL%2Bokh3eGTo68KhAtP/cYxlbWs%3D');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #e8f1fb;
     color: rgb(4, 99, 150);
 }
 
@@ -11,8 +7,11 @@ body {
     background-color: rgba(21, 37, 177, 0.6);
 }
 
-.navbar img {
+.logo-placeholder {
     width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
 }
 
 .navbar a {
@@ -31,26 +30,27 @@ main {
 
 .jumbotron {
     color: rgb(154, 201, 237);
-    background-color: rgba(48, 105, 227, 0.45) !important;
+    background-color: rgba(48, 105, 227, 0.2) !important;
+    border-radius: 20px;
 }
 
 .jumbotron ul {
-    color: rgb(0, 225, 255);
+    color: rgb(0, 138, 194);
 }
 
 .jumbotron h1 {
-    color: aliceblue
+    color: aliceblue;
 }
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.764) !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     margin-top: 30px;
+    border: 1px solid #cce6ff;
 }
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 10px 10px 10px rgb(0, 157, 255);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 10px 10px 10px rgba(0, 123, 255, 0.3);
 }
 
 .card-title {
@@ -58,15 +58,11 @@ main {
 }
 
 section {
-    background-image: url('https://sdmntprwestus.oaiusercontent.com/files/00000000-ec78-6230-b9cc-613c51327e7f/raw?se=2025-06-23T18%3A48%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=d2bc8f63-9899-5bfd-8eaa-315f019f941f&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-23T15%3A16%3A14Z&ske=2025-06-24T15%3A16%3A14Z&sks=b&skv=2024-08-04&sig=I%2Bi52Z5BX907Q6Tdd96zZ%2BwO5I3j0LpWMUo6DRGhY4U%3D');
+    background-color: #c7e3fa;
     padding: 50px 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: rgb(1, 144, 221);
+    color: rgb(1, 95, 153);
 }
 
 footer {
-    background-color: rgba(2, 73, 179, 0.448);
+    background-color: rgba(2, 73, 179, 0.6);
 }
