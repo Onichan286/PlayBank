@@ -1,57 +1,78 @@
-/* Fundo geral inspirado no azul digital das imagens */
 body {
-    background-color: #0d1b2a; /* azul escuro tecnológico */
-    color: #00cfff; /* azul neon claro para texto */
+    background: linear-gradient(to bottom right, #003399, #00ccff) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 97, 150);
 }
 
-/* Navbar azul translúcida com links em azul claro */
 .navbar {
-    background-color: rgba(0, 123, 255, 0.6);
+    background-color: rgba(21, 37, 177, 0.6);
 }
 
-.logo-placeholder {
+.navbar img {
     width: 70px;
-    height: 70px;
-    background-color: #00aaff;
-    border-radius: 50%;
 }
 
-/* Links da navbar */
 .navbar a {
     transition: 0.3s;
-    color: #cceeff !important; /* azul claro gelado */
+    color: rgba(56, 102, 250, 0.9) !important;
     font-weight: 700;
 }
 
 .navbar a:hover {
-    color: #ffffff !important;
+    color:  #ffdd57 !important;
 }
 
-/* Espaço para não cobrir conteúdo com o topo fixo */
 main {
     padding-top: 100px;
 }
 
-/* Bloco jumbotron azul transparente com texto em azul claro */
 .jumbotron {
-    background-color: rgba(0, 136, 204, 0.3) !important;
-    color: #c6e6ff;
-    border-radius: 20px;
+    color: #ffdd57;
+    background-color: rgba(75, 130, 248, 0.45) !important;
 }
 
-/* Lista de recursos no jumbotron */
 .jumbotron ul {
-    color: #00e0ff; /* azul neon ciano */
+    color: rgb(0, 225, 255);
 }
 
-/* Título chamativo branco */
 .jumbotron h1 {
-    color: #ffffff;
+    color: aliceblue
+}
+.card a {
+    color: #ffdd57 !important;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-/* Cards brancos com bordas e sombras em azul */
 .card {
-    background-color: rgba(255, 255, 255, 0.9) !important;
-    border: 2px solid #00bfff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(20, 140, 225, 0.831) !important;
     margin-top: 30px;
-    transition: tr
+    color:  #ffdd57;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 10px 10px rgb(0, 157, 255);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+section {
+    background-image: url('');
+    padding: 50px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(1, 144, 221);
+}
+
+footer {
+    background-color: rgba(2, 73, 179, 0.448);
+}
